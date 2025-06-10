@@ -1,12 +1,12 @@
-This repository contains data and code to:
+This repository contains data and code (in Python) to:
 
 1) Create in silico media to replicate the feeding patterns of weaning infants (folder media)
    
-3) Simulate in silico the effect of the designed media on the production of SCFA by the gut microbiota of weaning infants using the MICOM model (folder simulations)
+2) Simulate in silico the effect of the designed media on the production of SCFA by the gut microbiota of weaning infants using the MICOM model (folder simulations)
    
-5) Compare predicted outcomes with experimental data from a faecal fermentation study (folder analyses)
+3) Compare predicted outcomes with experimental data from a faecal fermentation study (folder analyses)
 
-
+Steps 1 and 2 require previous installation of the MICOM model
    
 
 Please cite:
