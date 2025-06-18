@@ -1,10 +1,11 @@
-#Loading libraries
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# Load dataset
-data = pd.read_csv('data_heatmap.csv')
+#imporitng and preparing data
+data = pd.read_csv('data_z_scores.csv')
+data = data[data["Treatment"].isin(["Food", "Food_food"])] #filtering for food and food-food samples only
+data = data.groupby(['Sample', 'Analyte'], as_index=False)[['Measured', 'Predicted']].mean()
 
 # Define SCFA categories
 categories = ['Acetate', 'Propionate', 'Butyrate', 'total_SCFAs']
