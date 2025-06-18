@@ -5,6 +5,8 @@ This repository contains data and code (in Python) to:
 2) Simulate in silico the effect of the designed media on the production of SCFA by the gut microbiota of weaning infants using the MICOM model (folder simulations)
    
 3) Compare predicted outcomes with experimental data from a faecal fermentation study (folder analyses)
+   
+4) Perform sensitivty analyses modifying the composition of the microbial community (using post-fermentation relative abundances instead of baseline values)
 
 Steps 1 and 2 require previous installation of the MICOM model
    
